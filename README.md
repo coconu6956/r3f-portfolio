@@ -40,13 +40,11 @@ https://market.pmnd.rs/
 
 ```javascript
 <OrbitControls />
-// 3d 컨트롤러 움직일 수 있다
 
 <PresentationControls global 
       config={{mass: 4, tension: 400}}  
       snap={{mass: 4, tension: 300}} 
 >
-// 움직일 수 있지만 다시 기본상태로 돌아옴
 ```
 
 ```javascript
