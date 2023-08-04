@@ -38,7 +38,7 @@ https://market.pmnd.rs/
 
 노트북으로 다운로드 
 
-```
+```javascript
 <OrbitControls />
 // 3d 컨트롤러 움직일 수 있다
 
@@ -49,14 +49,14 @@ https://market.pmnd.rs/
 // 움직일 수 있지만 다시 기본상태로 돌아옴
 ```
 
-```
+```javascript
 // 3d 모델 불러오기
 const macbook = useGLTF("https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf")
 <primitive object={macbook.scene} position={[-2.4, -1.3, 0.2]} scale={[2,2,2]}>
     </primitive> 
 ```
 
-```
+```javascript
  <Float rotationIntensity={1.5}></Float>
 // 둥둥뜨는 효과
 
@@ -64,7 +64,7 @@ const macbook = useGLTF("https://vazxmixjsiawhamofees.supabase.co/storage/v1/obj
 // 그림자 효과
 ```
 
-```
+```javascript
 // 노트북 화면 빛 효과
 <rectAreaLight 
         color={"#0021a7"} 
