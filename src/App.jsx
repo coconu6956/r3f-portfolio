@@ -14,7 +14,7 @@ function App() {
   return (
     <>
      <Canvas camera={{fov: 45, near: 0.1, far: 2000, position: [0, 1.5, 6]}}>
-      <color args={["#2a487c"]} attach="background"/>
+      <color args={["#241468"]} attach="background"/>
       {/* <OrbitControls /> */}
       <ambientLight />
       <directionalLight intensity={1.4} />
@@ -37,7 +37,7 @@ function App() {
     />
     <primitive object={macbook.scene} position={[0, -1.5 , 0]}>
       <Html position={[0, 1.56, -1.4]} distanceFactor={1.17} rotation-x={-0.256} transform wrapperClass='htmlScreen'> 
-        <iframe src="https://coconu6956.github.io/portfolio/" frameborder="0"></iframe>
+        <iframe src="https://coconu6956.github.io/portfolio/" frameBorder="0"></iframe>
       </Html>
     </primitive>
     </Float>
@@ -69,7 +69,7 @@ function App() {
     </Float>
 
     <Text 
-      font="/Borel-Regular.ttf" 
+      font="/Borel-Regular.ttf"
       fontSize={0.6} 
       position={[0, 1.525, 0.75]}
     >
